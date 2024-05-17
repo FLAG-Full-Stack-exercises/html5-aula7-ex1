@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.tablecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 720px;
+    margin: auto;
+    padding: 200px
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr {
+    height: 104px;
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(to bottom , rgb(117,94,255), rgb(214,135,255))
+}
+
+.tdtitles {
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    word-wrap: break-word;
+    padding: 20px;
+    border-right: 2px solid;
+    border-image-source: linear-gradient(to bottom , rgb(117,94,255), rgb(214,135,255))
+}
+
+.tdstars {
+    width: 305px;
+}
