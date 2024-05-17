@@ -21,8 +21,7 @@ table {
 
 tr {
     height: 104px;
-    border-bottom: 2px solid;
-    border-image-source: linear-gradient(to bottom , rgb(117,94,255), rgb(214,135,255))
+    border-bottom: 2px solid rgb(117,94,255)
 }
 
 .tdtitles {
@@ -31,8 +30,7 @@ tr {
     font-size: 20px;
     word-wrap: break-word;
     padding: 20px;
-    border-right: 2px solid;
-    border-image-source: linear-gradient(to bottom , rgb(117,94,255), rgb(214,135,255))
+    border-right: 2px solid rgb(117,94,255)
 }
 
 .tdstars {
